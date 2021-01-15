@@ -1,0 +1,48 @@
+[
+  {
+    "path": "/",
+    "component": "/Users/czy/Desktop/lagou7/lagou/vue/3-3-4-1-nuxtjs综合案例/realworld-nuxtjs/pages/layout",
+    "children": [
+      {
+        "path": "",
+        "name": "home",
+        "component": "/Users/czy/Desktop/lagou7/lagou/vue/3-3-4-1-nuxtjs综合案例/realworld-nuxtjs/pages/home"
+      },
+      {
+        "path": "/login",
+        "name": "login",
+        "component": "/Users/czy/Desktop/lagou7/lagou/vue/3-3-4-1-nuxtjs综合案例/realworld-nuxtjs/pages/login"
+      },
+      {
+        "path": "/register",
+        "name": "register",
+        "component": "/Users/czy/Desktop/lagou7/lagou/vue/3-3-4-1-nuxtjs综合案例/realworld-nuxtjs/pages/login"
+      },
+      {
+        "path": "/profile/:username",
+        "name": "profile",
+        "component": "/Users/czy/Desktop/lagou7/lagou/vue/3-3-4-1-nuxtjs综合案例/realworld-nuxtjs/pages/profile"
+      },
+      {
+        "path": "/settings",
+        "name": "settings",
+        "component": "/Users/czy/Desktop/lagou7/lagou/vue/3-3-4-1-nuxtjs综合案例/realworld-nuxtjs/pages/settings"
+      },
+      {
+        "path": "/editor",
+        "name": "editor",
+        "component": "/Users/czy/Desktop/lagou7/lagou/vue/3-3-4-1-nuxtjs综合案例/realworld-nuxtjs/pages/editor"
+      },
+      {
+        "path": "/editor/:slug",
+        "name": "editor",
+        "component": "/Users/czy/Desktop/lagou7/lagou/vue/3-3-4-1-nuxtjs综合案例/realworld-nuxtjs/pages/editor"
+      },
+      {
+        "path": "/article/:slug",
+        "name": "article",
+        "component": "/Users/czy/Desktop/lagou7/lagou/vue/3-3-4-1-nuxtjs综合案例/realworld-nuxtjs/pages/article"
+      }
+    ]
+  }
+]
